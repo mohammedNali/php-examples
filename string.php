@@ -40,8 +40,23 @@ var_dump($isFloat);
 
 
 $array = ['bilal', 'ahmed', 'c', 'g', 'z', 'w'];
-sort($array);
+$arrayN = [1, 3, 6, 8, 7, 9];
+rsort($arrayN);
+$information = [
+    'name' => 'Mohammed',
+    'middlename' => 'Najem',
+    'surname' => 'Ali',
+    // 'age' => 32,
+    // 'phone' => '050782188888',
+    // 'have_car' => false,
+    // 'password' => '1234567890',
+];
 
-var_dump($array);
+// sort($array);
+// asort($information);
+// ksort($information);
+// arsort($information);
+
+var_dump($information);
 
 
